@@ -15,7 +15,7 @@ fig = px.bar(df, x="Fruit", y="Amount", color="City", barmode="group")
 app.layout = html.Div([
     html.H1(children='Hello Dash!'),
     html.Div(children='''
-        Dash: A web application framework for your data
+        Dash: A web application framework for your data.
     '''),
     dcc.Graph(
         id='sample-graph',
